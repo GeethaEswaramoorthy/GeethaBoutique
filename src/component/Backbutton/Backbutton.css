@@ -1,0 +1,43 @@
+.back-btn-container {
+  border: 1px solid lightpink;
+  background-color: lightpink;
+}
+
+/* .back-btn {
+  background-color: pink;
+  color: black;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  display: block;
+  margin-left: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+} */
+
+.back-btn:hover {
+  background-color: lightpink   ;
+  transition: background-color 0.3s ease;
+}
+.back-btn {
+  background-color: lightcyan; 
+  border: none;
+  padding: 8px 18px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 25px;
+  cursor: pointer;
+  display: block;
+  gap: 6px;
+  transition: all 0.3s ease;
+  margin-left: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+font-family: 'Times New Roman', Times, serif;}
+
+/* .back-btn:hover {
+  background-color: #f5a3b7;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transform: translateY(-1px);
+} */

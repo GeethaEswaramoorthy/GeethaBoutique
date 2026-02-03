@@ -1,0 +1,47 @@
+.kurtisproducts {
+  padding: 60px 40px;
+  background-color: lightpink;
+  text-align: center;
+}
+
+
+/* Cards layout */
+.kurtis-cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+ 
+
+}
+
+/* Individual card */
+.cardkurtis{
+   background-color: #ffffff;
+  border-radius: 60px;
+  width: 300px;
+  padding: 10px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+  
+}
+
+/* Image */
+.cardkurtis img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50px;
+  margin-bottom: 5px;
+
+}
+
+/* Card text */
+.cardkurtis h3  {
+  font-size: 22px;
+  color: black;
+  margin-bottom: 8px;
+}
+
+.cardkurtis p {
+  color: #666;
+  font-size: 15px;
+}

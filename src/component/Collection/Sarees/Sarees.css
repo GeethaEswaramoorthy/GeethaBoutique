@@ -1,0 +1,46 @@
+.sareeproducts {
+  padding: 60px 40px;
+  background-color: lightpink;
+  text-align: center;
+}
+
+
+/* Cards layout */
+.saree-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+ 
+
+}
+
+/* Individual card */
+.cardsaree {
+  background-color: #ffffff;
+  border-radius: 50px;
+  width: 500%;
+  padding: 10px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+  
+}
+
+/* Image */
+.cardsaree img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+/* Card text */
+.cardsaree h3  {
+  font-size: 22px;
+  color: black;
+  margin-bottom: 8px;
+}
+
+.cardsaree p {
+  color: #666;
+  font-size: 15px;
+}

@@ -1,0 +1,61 @@
+.contact-container {
+margin: auto;
+  padding: 40px;
+color: black;
+background-color: lightpink;   
+
+}
+
+.contact-title {
+  text-align: center;
+  margin-bottom: 40px;
+    font-size: 36px;
+}
+
+.contact-content {
+  display: flex;
+  gap: 40px;
+}
+
+/* LEFT SIDE */
+.contact-details {
+  flex: 1;
+  font-size: 18px;
+  padding: 25px;
+  text-align: left;
+}
+
+.contact-details a {
+  color: purple;
+  text-decoration: none;
+}
+
+/* RIGHT SIDE */
+.contact-form {
+  flex: 1;
+}
+
+.contact-form label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  text-align: left;
+  
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 75%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  margin-top: 20px;
+  background-color: purple;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+}

@@ -1,0 +1,47 @@
+.westernproducts {
+  padding: 60px 40px;
+  background-color: lightpink;
+  text-align: center;
+}
+
+
+/* Cards layout */
+.western-cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 80px;
+
+}
+
+/* Individual card */
+.cardwestern {
+  background-color: #ffffff;
+  border-radius: 60px;
+  width: 350px;
+  padding: 10px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+  
+}
+
+/* Image */
+.cardwestern img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+    border-radius: 50px;
+  margin-bottom: 2px;
+
+
+}
+
+/* Card text */
+.cardwestern h3  {
+  font-size: 22px;
+  color: black;
+  margin-bottom: 8px;
+}
+
+.cardwestern p {
+  color: #666;
+  font-size: 15px;
+}

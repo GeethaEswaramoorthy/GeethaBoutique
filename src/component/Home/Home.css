@@ -1,0 +1,37 @@
+
+
+/* ===== HOME SECTION ===== */
+.home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 40px;
+  background-color:lightpink;
+}
+
+.home-text {
+  width: 60%;
+
+}
+
+.home-text h2 {
+  font-size: 38px;
+  color: black;
+  margin-bottom: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.home-text p {
+  font-size: 25px;
+  color: black; 
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.home-image {
+  width: 45%;
+}
+
+.home-image img {
+  width: 100%;
+  border-radius: 20px;
+}

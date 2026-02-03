@@ -1,0 +1,51 @@
+.collections {
+  padding: 60px 40px;
+  background-color: lightpink;
+  text-align: center;
+  /* margin-top: -40px;
+  position: absolute; */
+}
+
+.collection-title {
+  font-size: 32px;
+  color: #6a0572;
+  margin-bottom: 40px;
+}
+
+/* Cards layout */
+.collection-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+/* Individual card */
+.card {
+  background-color: #ffffff;
+  border-radius: 50px;
+  width: 500%;
+  padding: 10px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+  
+}
+
+/* Image */
+.card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+/* Card text */
+.card h3 {
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.card p {
+  color: #666;
+  font-size: 15px;
+}
